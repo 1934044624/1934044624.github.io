@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 核心：0秒立即自动跳转，目标路径为v2.0/index.html -->
+    <meta http-equiv="Refresh" content="0; url=v2.0/index.html">
+    <title>正在跳转到 RCP 2.0 版本...</title>
+    <style>
+        /* 基础样式，提升等待体验 */
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .loading-text {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .backup-link {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .backup-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 提示文本（跳转快的话可能看不到，仅作容错） -->
+    <div class="loading-text">正在自动跳转到 RCP 2.0 版本...</div>
+    <div>
+        若未自动跳转，请手动点击：
+        <a class="backup-link" href="v2.0/index.html">进入 RCP 2.0 版本</a>
+    </div>
+</body>
+</html>
+
